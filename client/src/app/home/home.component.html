@@ -1,0 +1,10 @@
+<div *ngIf="!(accountService.currentUser$ | async)" class="container mt-5">
+  <div style="text-align: center">
+    <h1>SCI Test</h1>
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <app-register></app-register>
+      </div>
+    </div>
+  </div>
+</div>
